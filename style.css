@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    background: #111;
+}
+
+.container{
+    width: 100%;
+    max-width: 1230px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0 15px;
+    background: white;
+}
+
+header{
+    width: 100%;
+    min-height: 70px;
+}
