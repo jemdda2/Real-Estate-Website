@@ -253,8 +253,89 @@ section .banner{
     letter-spacing: 2px;
     line-height: 40px;
 }
+#about .thumb .thumb-box:hover,
+#about .thumb .text a:hover{
+    box-shadow: none;
+}
+#about .partner h3{
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+#about .partner p{
+    margin: 10px 0;
+}
+#about .partner a{
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    color: crimson;
+    display: inline-block;
+}
+#about .partner a:hover{
+    font-weight: 900;
+    color: teal;
+}
 /* --------------- Properties --------------- */
-
+#propertis{
+    width: 100%;
+    margin-top: 20px;
+}
+#propertis h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+#propertis .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#propertis .content .box{
+    flex: 1;
+    min-width: 300px;
+    min-height: 500px;
+    overflow: hidden;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 4px 5px 10px #ddd;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+#propertis .content .box:hover{
+    box-shadow: none;
+}
+#propertis .content .box img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+#propertis .content .box h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+#propertis span{
+    color: teal;
+    padding-right: 10px;
+}
+#propertis p{
+    line-height: 1.4;
+    margin: 5px 0;
+}
+#propertis a{
+    text-decoration: none;
+    color: white;
+    background: #555;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
 /* --------------- Services --------------- */
 
 /* --------------- Contact --------------- */
