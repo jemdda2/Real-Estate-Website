@@ -464,5 +464,40 @@ section .banner{
 #contact .box .text span{
     color: crimson;
 }
-
+/* --------------- Footer --------------- */
+footer{
+    width: 100%;
+    max-width: 1230px;
+    background: #811;
+    margin: auto;
+    color: white;
+}
+footer .content{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .content .box{
+    flex: 1;
+    min-width: 300px;
+    margin: 30px 10px;
+}
+footer .content .box h2{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+footer .content .box p{
+    opacity: 0.5;
+    margin: 15px 0;
+}
+footer .content .box h3{
+    opacity: 0.7;
+    letter-spacing: 2px;
+}
+footer .row{
+    border-top: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+}
 /* --------------- Register / Login --------------- */
