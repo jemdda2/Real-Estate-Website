@@ -634,7 +634,7 @@ footer .row .social a:hover{
     background: orangered;
 }
 .hidden{
-    /* display: none; */
+    display: none;
 }
 .login-box .check span{
     color: green;
